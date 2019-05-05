@@ -1,0 +1,29 @@
+{
+  "name": "fullstack_movie_app",
+  "version": "1.0.0",
+  "description": "This is a basic fullstack crud app to cement my knoledge at eda",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessejacob19/fullstack_movie_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessejacob19/fullstack_movie_app/issues"
+  },
+  "homepage": "https://github.com/jessejacob19/fullstack_movie_app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^24.8.0",
+    "knex": "^0.16.5",
+    "nodemon": "^1.19.0",
+    "sqlite3": "^4.0.6"
+  }
+}
