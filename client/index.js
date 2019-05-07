@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom'
-import App from './components/App'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
-document.addEventListener('DOMConetentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
-    <App/>,
+    <App />,
     // where react should attatch to the DOM
-    document.getElementById('app')
-  )
-})
+    document.getElementById("app")
+  );
+});
