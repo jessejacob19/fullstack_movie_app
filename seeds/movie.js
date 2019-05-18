@@ -1,4 +1,3 @@
-const movieData = require("../data/data");
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
   return knex("movie")

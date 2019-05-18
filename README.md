@@ -1,8 +1,23 @@
 # fullstack_movie_app
+
 This is a basic fullstack crud app to cement my knowledge at eda
 
-this is just CRUD practice with react-redux, adding new movies, removing movies, updating movies and rendering movies
+mvp:
+CRUD with react, redux, api, db
+auth
+100% test coverage
+deployed to heroku
 
-i might add database capibilites just for a refresher
+as a user i want to be able to:
+add a new movie to my favorites list
+remove a movie from my favorites list
+see my movies when i am logged in
 
-also want to use this as an opportunity to get better at testing
+as a admin i would like to be able to:
+create a new movie
+update an existing movie
+
+learning objectives:
+get a complete fullstack app with the eda stack
+be able to get full test coverage on an app
+be able to implement auth in a fullstack project

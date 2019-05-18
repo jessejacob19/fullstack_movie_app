@@ -1,4 +1,8 @@
 import React, { Component, Fragment } from "react";
+import {HashRouter as Router, Route, Link} from 'react-router-dom'
+
+
+import Header from './Header'
 
 class App extends Component {
   constructor(props) {
@@ -8,7 +12,9 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <h1>hi!!</h1>
+        <Router>
+          <Route></Route>
+        </Router>
       </Fragment>
     );
   }
